@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <header class="flex items-center justify-between py-5 bg-white fixed z-1 top-0 left-0 w-screen">
+        <a href="/" class="text-xl font-serif capitalize  font-bold px-10">big picture</a>
+
+        <ul class="flex  items-center justify-end  gap-4 px-10">
+              <li>
+                <a href="" class=" m-5 capitalize text-2xl font-light cursor-pointer ">intro</a>
+              </li>
+              <li>
+                <a href="" class=" m-5 capitalize text-2xl font-light cursor-pointer">what i do</a>
+              </li>
+              <li>
+                <a href="" class=" m-5 capitalize text-2xl font-light cursor-pointer">who i am</a>
+              </li>
+              <li>
+                <a href="" class=" m-5 capitalize text-2xl font-light cursor-pointer">my work</a>
+              </li>
+              <li>
+                <a href="" class=" m-5 capitalize text-2xl font-light cursor-pointer">contact</a>
+              </li>
+        </ul>
+    </header>
+
+
+  <main class="flex flex-col">
+  <!-- Intro Section -->
+<section 
+  id="intro" 
+  class="w-screen h-screen bg-cover bg-center sticky top-0 flex items-center justify-center">
+
+  <!-- Background -->
+  <div class="absolute inset-0 bg-[url('./images/01.png')] bg-cover bg-center -z-10"></div>
+  
+  <!-- Scroll Content -->
+  <div id="intro-content" 
+       class="text-center font-serif flex flex-col gap-1 items-center transition-all duration-700">
+    <h2 class="text-9xl font-bold capitalize text-white">welcome</h2>
+    <p class="mt-4 text-lg text-black">
+      a <span class="text-white font-bold">Big Picture</span> a responsive site design by Rakinu
+    </p>
+
+    <!-- Smooth Scroll Button -->
+    <a href="#what_i_do" 
+       class="mt-10 border border-solid border-white h-[50px] w-[50px] rounded-full 
+              text-white font-bold text-2xl flex items-center justify-center">
+      ↓
+    </a>
+  </div>
+</section>
+
+
+  <!-- What I Do Section -->
+  <section 
+  id="what_i_do" 
+  class="w-screen h-screen bg-cover bg-center sticky top-0 flex items-center justify-end">
+    
+  <!-- Background -->
+  <div class="absolute inset-0 bg-[url('./images/02.png')] bg-cover bg-center -z-10 grayscale-100"></div>
+  
+  <!-- Scroll Content -->
+  <div id="what_i_do-content"
+       class="w-1/3 bg-white p-7 flex flex-col gap-3 opacity-0 -translate-x-20 transition-all duration-700 ease-out"
+  >
+    <h1 class="font-bold text-3xl capitalize">what i do</h1>
+    <p class="font-light">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsa consequuntur,
+      possimus dolorem beatae omnis dignissimos quam quaerat obcaecati quae temporibus 
+      ullam qui maxime iste tempore mollitia fugiat. Laborum eum id sunt laudantium quos aliquid quaerat eligendi
+      corrupti, maxime esse deleniti, ea voluptatum ullam temporibus unde molestias nulla quis consequuntur?
+    </p>
+  </div>
+</section>
+
+  <!-- Who I Am Section -->
+  <section 
+    id="what_i_am" 
+    class="w-screen h-screen bg-cover bg-center sticky top-0 flex items-center justify-start">
+
+     <!-- Background -->
+  <div class="absolute inset-0 bg-[url('./images/03.png')] bg-cover bg-center -z-10 grayscale-100"></div>
+  
+    
+
+  <!-- Scroll Content -->
+  <div id="what_i_am-content"
+       class="w-1/3 bg-white p-7 flex flex-col gap-3  opacit-translate-x-40 y-0  transition-all duration-700 ease-out"
+  >
+    <h1 class="font-bold text-3xl capitalize">what i do</h1>
+    <p class="font-light">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsa consequuntur,
+      possimus dolorem beatae omnis dignissimos quam quaerat obcaecati quae temporibus 
+      ullam qui maxime iste tempore mollitia fugiat. Laborum eum id sunt laudantium quos aliquid quaerat eligendi
+      corrupti, maxime esse deleniti, ea voluptatum ullam temporibus unde molestias nulla quis consequuntur?
+    </p>
+  </div>
+  </section>
+</main>
+
+
+</body>
+</html>
